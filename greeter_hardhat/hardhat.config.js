@@ -1,5 +1,5 @@
 require("@nomicfoundation/hardhat-toolbox");
-import "dotenv/config";
+require("dotenv").config()
 
 
 /** @type import('hardhat/config').HardhatUserConfig */
@@ -15,9 +15,8 @@ module.exports = {
   },
     etherscan: {
     apiKey: {
-      arcTestnet: "abc",
-      liskSepolia: "abc",
-      liskMainnet: "abc",
+      celoTestnet: "none",
+      
     },
     customChains: [
   {
