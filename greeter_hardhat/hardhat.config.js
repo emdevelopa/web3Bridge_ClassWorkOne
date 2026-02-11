@@ -20,7 +20,7 @@ module.exports = {
     },
     customChains: [
   {
-    network: "celoSepolia",
+    network: "celoTestnet",
     chainId: 11142220,
     urls: {
       apiURL: "https://celo-sepolia.blockscout.com/api",
